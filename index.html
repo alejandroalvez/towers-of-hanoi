@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/css/application.css">
+    <title>Towers of Hanoi</title>
+</head>
+<body>
+    <h1>Towers of Hanoi</h1>
+
+    <form action="#" method="POST">
+        <p>Tower height: <input type="text" id="height"></p>
+        <p><span id="message" class="hidden">Tower height must be between 5 and 10.</span></p>
+        <p><input type="submit" id="send" value="Watch solution"></p>
+    </form>
+    <div class="canvas-wrap">
+        <canvas id="canvas" width="900" height="600"></canvas>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

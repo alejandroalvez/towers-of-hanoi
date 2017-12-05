@@ -1,0 +1,42 @@
+body {
+  font-family: "Raleway", sans-serif; }
+
+h1 {
+  color: #A62792;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 0; }
+
+.hidden {
+  visibility: hidden; }
+
+form {
+  text-align: center;
+  font-size: 1.5em; }
+  form .hidden {
+    font-size: 0.8em;
+    color: #f44336;
+    margin-top: 0; }
+  form input[type=text] {
+    font-size: 1em;
+    width: 3em;
+    text-align: right;
+    margin-top: 1em; }
+  form input[type=submit] {
+    font-size: 0.8em;
+    background-color: #27a63b;
+    color: #fff;
+    margin-top: 0.5em;
+    padding: 0.6em 0.8em;
+    border-radius: 3em;
+    border: solid 2px #27a63b;
+    cursor: pointer;
+    transition: all 0.3s ease; }
+    form input[type=submit]:hover {
+      background-color: #fff;
+      color: #27a63b; }
+
+.canvas-wrap {
+  text-align: center; }
+
+/*# sourceMappingURL=application.css.map */
